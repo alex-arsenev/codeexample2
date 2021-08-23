@@ -5,12 +5,9 @@ import audio from './11.mp3'
 
 function A11({switchToNext}) {
 
-    const [currentTime,setCurrentTime] = React.useState(0)
     const [type,setType] = React.useState('')
     const [text,setText] = React.useState('')
     const [content,setContent] = React.useState([])
-    const [isRunning,setIsRunning] = React.useState(true)
-    const [intervalId,setIntervalId] = React.useState(null)
     const audioRef = React.useRef();
     const [yesButtonIsShowing,setYesButtonIsShowing] = React.useState(false)
 
@@ -50,7 +47,6 @@ function A11({switchToNext}) {
 
 
     React.useEffect(()=>{
-        console.log(audioRef.current)
         audioRef.current.play()
         const el = audioRef.current
         el.addEventListener("timeupdate",handleTimeUpdate)

@@ -189,11 +189,6 @@ const layoutList = {
                                         text: "60",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "1800",
-                                    //     content: []
-                                    // }
 
                                 ]
                             },
@@ -206,16 +201,7 @@ const layoutList = {
                                         text: "Со мной",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "1600",
-                                    //     content: []
-                                    // },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "350",
-                                    //     content: []
-                                    // }
+
                                 ]
                             },
 
@@ -257,11 +243,7 @@ const layoutList = {
                                         text: "Лидов в месяц",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableGreyItem",
-                                    //     text: "Ср. цена лида",
-                                    //     content: []
-                                    // }
+
                                 ]
                             },
                             {
@@ -278,11 +260,7 @@ const layoutList = {
                                         text: "60",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "1800",
-                                    //     content: []
-                                    // }
+
 
                                 ]
                             },
@@ -300,11 +278,7 @@ const layoutList = {
                                         text: "1600",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "350",
-                                    //     content: []
-                                    // }
+
                                 ]
                             },
 
@@ -389,11 +363,7 @@ const layoutList = {
                                         text: "1600",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "350",
-                                    //     content: []
-                                    // }
+
                                 ]
                             },
 
@@ -590,30 +560,9 @@ const layoutList = {
                                         text: "Рост по количеству лидов (%)",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableGreyItem",
-                                    //     text: "Снижение цены лида (%)",
-                                    //     content: []
-                                    // }
+
                                 ]
                             },
-                            // {
-                            //     type: "caseTableBottomBottom2stColumn",
-                            //     text: "",
-                            //     content: [
-                            //         {
-                            //             type: "caseTableBlackItem",
-                            //             text: "2660%",
-                            //             content: []
-                            //         },
-                            //         {
-                            //             type: "caseTableBlackItem",
-                            //             text: "80%",
-                            //             content: []
-                            //         }
-                            //     ]
-                            // }
-
 
 
                         ]
@@ -719,11 +668,7 @@ const layoutList = {
                                         text: "Рост по количеству лидов (%)",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableGreyItem",
-                                    //     text: "Снижение цены лида (%)",
-                                    //     content: []
-                                    // }
+
                                 ]
                             },
                             {
@@ -735,11 +680,7 @@ const layoutList = {
                                         text: "2660%",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "80%",
-                                    //     content: []
-                                    // }
+
                                 ]
                             }
 
@@ -864,11 +805,7 @@ const layoutList = {
                                         text: "2660%",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseTableBlackItem",
-                                    //     text: "80%",
-                                    //     content: []
-                                    // }
+
                                 ]
                             }
 

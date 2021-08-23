@@ -5,12 +5,9 @@ import audio from './10.mp3'
 
 function A10({switchToNext}) {
 
-    const [currentTime,setCurrentTime] = React.useState(0)
     const [type,setType] = React.useState('')
     const [text,setText] = React.useState('')
     const [content,setContent] = React.useState([])
-    const [isRunning,setIsRunning] = React.useState(true)
-    const [intervalId,setIntervalId] = React.useState(null)
     const audioRef = React.useRef();
     const [yesButtonIsShowing,setYesButtonIsShowing] = React.useState(false)
 

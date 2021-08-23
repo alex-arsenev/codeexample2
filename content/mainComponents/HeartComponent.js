@@ -20,7 +20,6 @@ function HeartComponent ({type,text,content}) {
         } else if (type === "caseChartCoordinatesDotXText"){
 
         } else if (type === "caseChartCoordinatesDotX2Text"){
-            // setCurrentStyle({...currentStyle,left: text+"px" })
         } else if (type === "caseChartCoordinatesDotY"){
 
         } else if (type === "caseChartCoordinatesDotY2"){
@@ -115,7 +114,6 @@ function HeartComponent ({type,text,content}) {
     return (
         <div style={currentStyle} className={type}>
             {textIsShowing ? text : null}
-            {/*{text}*/}
             {content.map((el)=>{
                 return <HeartComponent type={el.type} text={el.text} content={el.content} />
             })}

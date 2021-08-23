@@ -11,7 +11,6 @@ function A0({switchToNext}) {
 
     const processFirstClick = (id)=>{
         switchToNext(9)
-
         // let url = 'http://a-arsenev.ru/?chatId=' + 'id1' + "&company="+companyName
         // switchToNext(8)
     }

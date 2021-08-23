@@ -152,11 +152,7 @@ const layoutList = {
                                         text: "в месяц",
                                         content: [ ]
                                     },
-                                    // {
-                                    //     type: "differenceRightSquare__economy",
-                                    //     text: "Экономия",
-                                    //     content: [ ]
-                                    // },
+
                                 ]
                             },
 
@@ -511,17 +507,6 @@ const layoutList = {
                 type: "headLineAndTopic__bottom",
                 text: "",
                 content: [
-                    // {
-                    //     type: "headLineAndTopic__topic",
-                    //     text: "поиск новых сегментов ",
-                    //     content: []
-                    // },
-                    // {
-                    //     type: "headLineAndTopic__topic",
-                    //     text: "масштабирование текущих сегментов",
-                    //     content: []
-                    // },
-
                 ]
             }
         ]
@@ -544,11 +529,6 @@ const layoutList = {
                         text: "Компания получает на 2660% больше лидов и клиентов чем до меня",
                         content: []
                     },
-                    // {
-                    //     type: "headLineAndTopic__topic",
-                    //     text: "масштабирование текущих сегментов",
-                    //     content: []
-                    // },
 
                 ]
             }

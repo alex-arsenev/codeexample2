@@ -22,129 +22,7 @@ const layoutList = {
                                 text: "руб.",
                                 content: []
                             },
-                            //
-                            // {
-                            //     type: "caseChartCoordinatesDotX",
-                            //     text: "0",
-                            //     content: [
-                            //         {
-                            //             type: "caseChartCoordinatesDotXText",
-                            //             text: "60",
-                            //             content: []
-                            //         },
-                            //         {
-                            //             type: "caseChartCoordinatesDotYText",
-                            //             text: "108.000",
-                            //             content: []
-                            //         }
-                            //     ]
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotX2",
-                            //     text: "498",
-                            //     content: [
-                            //         {
-                            //             type: "caseChartCoordinatesDotX2Text",
-                            //             text: "1600",
-                            //             content: []
-                            //         }
-                            //     ]
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotY2",
-                            //     text: "100",
-                            //     content: [
-                            //         {
-                            //             type: "caseChartCoordinatesDotY2Text",
-                            //             text: "560.000",
-                            //             content: []
-                            //         }
-                            //     ]
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotY3",
-                            //     text: "300",
-                            //     content: [
-                            //         {
-                            //             type: "caseChartCoordinatesDotY3Text",
-                            //             text: "2.880.000",
-                            //             content: []
-                            //         }
-                            //     ]
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotSecondY2",
-                            //     text: "494/94",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotSecondY3",
-                            //     text: "494/294",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesSecondY2",
-                            //     text: "500/310",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartLine1",
-                            //     text: "11.7/523",
-                            //     content: [ ]
-                            // },
-                            // {
-                            //     type: "caseChartLine2",
-                            //     text: "31/594",
-                            //     content: [ ]
-                            // },
-                            // {
-                            //     type: "differenceLeft",
-                            //     text: "200/100",
-                            //     content: [ ]
-                            // },
-                            // {
-                            //     type: "differenceRight",
-                            //     text: "200/100",
-                            //     content: [ ]
-                            // },
-                            // {
-                            //     type: "differenceLeftSquare",
-                            //     text: "200/100",
-                            //     content: [ ]
-                            // },
-                            // {
-                            //     type: "differenceRightSquare",
-                            //     text: "200/100",
-                            //     content: [
-                            //         {
-                            //             type: "differenceRightSquare__economy",
-                            //             text: "Экономия",
-                            //             content: [ ]
-                            //         },
-                            //         {
-                            //             type: "differenceRightSquare__number",
-                            //             text: "2 880 000",
-                            //             content: [
-                            //                 {
-                            //                     type: "differenceRightSquare__rub",
-                            //                     text: " руб.",
-                            //                     content: [ ]
-                            //                 }
-                            //             ]
-                            //         },
-                            //
-                            //         {
-                            //             type: "differenceRightSquare__period",
-                            //             text: "в месяц",
-                            //             content: [ ]
-                            //         },
-                            //     ]
-                            // },
-                            // {
-                            //     type: "xName",
-                            //     text: "лиды",
-                            //     content: []
-                            // },
+
 
                         ]
                     }
@@ -179,32 +57,6 @@ const layoutList = {
                                 text: "лиды",
                                 content: []
                             },
-                            // {
-                            //     type: "caseChartCoordinatesDotX",
-                            //     text: "0",
-                            //     content: [
-                            //         // {
-                            //         //     type: "caseChartCoordinatesDotXText",
-                            //         //     text: "60",
-                            //         //     content: []
-                            //         // },
-                            //         // {
-                            //         //     type: "caseChartCoordinatesDotYText",
-                            //         //     text: "108.000",
-                            //         //     content: []
-                            //         // }
-                            //     ]
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotSecondY2",
-                            //     text: "494/94",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartLine1",
-                            //     text: "11.7/523",
-                            //     content: [ ]
-                            // },
 
 
 
@@ -250,24 +102,9 @@ const layoutList = {
                                         text: "60",
                                         content: []
                                     },
-                                    // {
-                                    //     type: "caseChartCoordinatesDotYText",
-                                    //     text: "108.000",
-                                    //     content: []
-                                    // }
+
                                 ]
                             },
-                            // {
-                            //     type: "caseChartCoordinatesDotSecondY2",
-                            //     text: "494/94",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartLine1",
-                            //     text: "11.7/523",
-                            //     content: [ ]
-                            // },
-
 
 
                         ]
@@ -319,27 +156,6 @@ const layoutList = {
                                     }
                                 ]
                             },
-                            // {
-                            //     type: "caseChartCoordinatesDotX2",
-                            //     text: "498",
-                            //     content: [
-                            //         {
-                            //             type: "caseChartCoordinatesDotX2Text",
-                            //             text: "1600",
-                            //             content: []
-                            //         }
-                            //     ]
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotSecondY2",
-                            //     text: "494/94",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartLine1",
-                            //     text: "11.7/523",
-                            //     content: [ ]
-                            // },
 
 
 
@@ -403,27 +219,6 @@ const layoutList = {
                                     }
                                 ]
                             },
-                            // {
-                            //     type: "caseChartCoordinatesDotY2",
-                            //     text: "100",
-                            //     content: [
-                            //         {
-                            //             type: "caseChartCoordinatesDotY2Text",
-                            //             text: "560.000",
-                            //             content: []
-                            //         }
-                            //     ]
-                            // },
-                            // {
-                            //     type: "caseChartCoordinatesDotSecondY2",
-                            //     text: "494/94",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartLine1",
-                            //     text: "11.7/523",
-                            //     content: [ ]
-                            // },
 
 
 
@@ -498,17 +293,6 @@ const layoutList = {
                                     }
                                 ]
                             },
-                            // {
-                            //     type: "caseChartCoordinatesDotSecondY2",
-                            //     text: "494/94",
-                            //     content: []
-                            // },
-                            // {
-                            //     type: "caseChartLine1",
-                            //     text: "11.7/523",
-                            //     content: [ ]
-                            // },
-
 
 
                         ]
