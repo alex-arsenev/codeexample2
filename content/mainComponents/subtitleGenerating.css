@@ -1,0 +1,90 @@
+/*.subtitleAndInteractiveContainer {*/
+/*    min-height: 100px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*}*/
+
+/*.subtitleAndInteractiveContainer__subtitles {*/
+/*    min-height: 100px;*/
+/*    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);*/
+/*    font-size: 30px;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*    transition-duration: 0.5s;*/
+/*    transition-property: margin-bottom;*/
+/*    position: relative;*/
+/*    margin-bottom: 50vh;*/
+/*}*/
+/*.subtitleAndInteractiveContainer__actions_wrap{*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*    height: 350px;*/
+/*}*/
+/*.subtitleAndInteractiveContainer__actions {*/
+/*    height: 250px;*/
+/*    width: 100%;*/
+/*    top: -150px;*/
+/*    background: #ffebc4;*/
+/*    text-align: center;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*    transition: .5s;*/
+/*}*/
+/*.subtitleAndInteractiveContainer__actions.subtitleAndInteractiveContainer__actions_toggled{*/
+/*    top: 100px;*/
+/*}*/
+
+/*.subtitleAndInteractiveContainer__subtitlesText {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 25px;*/
+/*    width: 60vw;*/
+/*    margin: 0 auto;*/
+/*    color: red;*/
+/*}*/
+
+.onlyText {
+    min-height: 10vh;
+    width: 100vw;
+    /*background-color: red;*/
+    /*background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);*/
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 100px;
+}
+
+.onlyTextContainer {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.yesButton {
+    width: 359px;
+    height: 63px;
+    background: linear-gradient(113.55deg, #DAEB78 5.58%, #FDE177 103.2%);
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.underYesButton {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}

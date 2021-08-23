@@ -1,0 +1,89 @@
+.caseTable {
+    background: #F9F9F9;
+    box-shadow: 0px 0px 20px #E0E0E0;
+    border-radius: 30px;
+    width: 1000px;
+    height: 492px;
+    margin: 0 auto;
+    animation: appear .5s;
+}
+
+.caseTableTop  {
+    height: 70px;
+    border-radius: 30px     30px  0           0;
+    background: linear-gradient(92.85deg, #B8E07E -0.45%, #FDE477 100.73%);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.caseTableBottomTop {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.caseTableBottomTop1stColumn {
+    width: 300px;
+    color: #454545;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.caseTableBottomTop2stColumn {
+    width: 300px;
+}
+
+.caseTableBlackItem {
+    color: #454545;
+    font-weight: bold;
+    height: 40px;
+    animation: appear .5s;
+}
+.caseTableGreyItem {
+    color: #454545;
+    height: 40px;
+    font-size: 16px;
+    animation: appear .5s;
+}
+.caseTableLightGreyItem {
+    color: #6C6C6C;
+    height: 40px;
+    font-size: 14px;
+    animation: appear .5s;
+}
+
+.caseTableBottomBottom {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top:  1px solid #DBDBDB;
+    padding-top: 40px;
+    display: flex;
+}
+
+.caseTableBottomBottom1stColumn {
+    width: 600px;
+}
+
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotateDown {
+    0% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

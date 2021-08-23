@@ -1,0 +1,365 @@
+
+.caseChart {
+    background: #F9F9F9;
+    box-shadow: 0px 0px 20px #E0E0E0;
+    border-radius: 30px;
+    width: 1000px;
+    height: 530px;
+    animation: appear .5s;
+    /*margin-top: -15px;*/
+    margin: 0 auto;
+}
+
+.caseChartTop  {
+    height: 70px;
+    border-radius: 30px     30px  0           0;
+    background: linear-gradient(92.85deg, #B8E07E -0.45%, #FDE477 100.73%);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.caseChartBottom {
+    position: relative;
+}
+
+.caseChartCoordinates {
+    width: 0px;
+    height: 360px;
+    border-bottom: 4px solid #EBEBEB;
+    border-left: 4px solid #EBEBEB;
+    margin-left: 134px;
+    margin-top: 410px;
+    position: relative;
+    animation: drawCoordinates 1s forwards;
+}
+.caseChartCoordinates2 {
+    width: 0px;
+    height: 360px;
+    border-bottom: 4px solid #EBEBEB;
+    border-left: 4px solid #EBEBEB;
+    margin-left: 134px;
+    margin-top: 410px;
+    position: relative;
+}
+
+/*//.economyRectangle {*/
+/*  //  height: 202px;*/
+/*  //  border-left: 4px solid linear-gradient(180deg, #BCE07D 0%, #F9E377 100%);*/
+/*  //}*/
+
+.caseChartCoordinatesDotX {
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.25);
+    border-radius: 100px;
+    z-index: 4;
+    animation: appear .5s;
+}
+.caseChartCoordinatesDotX2 {
+    position: absolute;
+    left: -10px;
+    bottom: -6px;
+    width: 6px;
+    height: 6px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.25);
+    border-radius: 100px;
+    z-index: 2;
+    animation: appear .5s;
+}
+
+.caseChartCoordinatesDotXText {
+    position: absolute;
+    left: 0px;
+    bottom: -22px;
+    font-weight: bold;
+    animation: appear .5s;
+}
+
+.caseChartCoordinatesDotX2Text {
+    position: absolute;
+    left: -7px;
+    bottom: -22px;
+    font-weight: bold;
+    animation: appear .5s;
+}
+
+.caseChartCoordinatesDotYText {
+    position: absolute;
+    left: -65px;
+    bottom: 0px;
+    font-weight: bold;
+    animation: appear .5s;
+}
+
+.caseChartCoordinatesDotY2 {
+    position: absolute;
+    left: -5px;
+    bottom: -10px;
+    width: 6px;
+    height: 6px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.25);
+    border-radius: 100px;
+    z-index: 2;
+    animation: appear .5s;
+}
+.caseChartCoordinatesDotY2Text {
+    position: absolute;
+    left: -65px;
+    bottom: 0px;
+    font-weight: bold;
+    animation: appear .5s;
+}
+
+.caseChartCoordinatesDotY3 {
+    position: absolute;
+    left: -5px;
+    bottom: -10px;
+    width: 6px;
+    height: 6px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.25);
+    border-radius: 100px;
+    z-index: 2;
+    animation: appear .5s;
+}
+.caseChartCoordinatesDotY3Text {
+    position: absolute;
+    left: -80px;
+    bottom: 0px;
+    font-weight: bold;
+    animation: appear .5s;
+}
+
+.caseChartLine1 {
+    height: 2px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    border-radius: 10px;
+    transform-origin: top left;
+    animation: drawLine 8s forwards;
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: 3;
+}
+.caseChartLine2 {
+    height: 2px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    border-radius: 10px;
+    transform-origin: top left;
+    animation: drawLine 8s forwards;
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: 3;
+}
+.differenceLeft {
+    width: 4px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #BCE07D 0%, #F9E377 100%);
+    position: absolute;
+    left: -4px;
+    bottom: -10px;
+    z-index: 1;
+    animation: appear .5s;
+}
+.differenceRight {
+    width: 4px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #BCE07D 0%, #F9E377 100%);
+    position: absolute;
+    left: 800px;
+    animation: appear .5s;
+}
+.differenceLeftSquare {
+    position: absolute;
+    left: -4px;
+    width: 500px;
+    border-radius:3px;
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+    animation: appear .5s;
+    background:
+            repeating-linear-gradient(119deg,  #ebebeb ,
+            #ebebeb  1px,
+            #f9f9f9  1px,
+            #f9f9f9  20px) padding-box /* Don't extend this to border */,
+            linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%) border-box; /*Border-box is not need as it's the default value*/
+}
+.differenceRightSquare {
+    position: absolute;
+    left: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:3px;
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+    animation: appear .5s;
+    background:
+            linear-gradient(#f9f9f9,#f9f9f9) padding-box /* Don't extend this to border */,
+            linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%) border-box; /*Border-box is not need as it's the default value*/
+}
+
+
+.differenceRightSquare__economy {
+    font-weight: 600;
+    animation: appear .5s;
+}
+.differenceRightSquare__number {
+    display: inline;
+    font-weight: 700;
+    animation: appear .5s;
+}
+.differenceRightSquare__rub {
+    display: inline;
+    font-weight: 600;
+    animation: appear .5s;
+
+}
+.caseChartCoordinatesDotSecondY2 {
+    position: absolute;
+/*//left: 200px;*/
+/*//bottom: 200px;*/
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.25);
+    border-radius: 100px;
+    z-index: 4;
+    animation: appear .5s;
+}
+.caseChartCoordinatesDotSecondY3 {
+    position: absolute;
+/*//left: 200px;*/
+/*//bottom: 300px;*/
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%);
+    box-shadow: 0px 0px 20px rgba(186, 186, 186, 0.25);
+    border-radius: 100px;
+    z-index: 4;
+    animation: appear .5s;
+}
+
+.caseChartCoordinatesSecondY2 {
+    position: absolute;
+    left: 210px;
+    width: 1px;
+    height: 300px;
+    bottom: -6px;
+    border-radius:3px;
+    border-left: 1px dashed #fff;
+    z-index: 1;
+    animation: appear .5s;
+    background:
+            linear-gradient(#f9f9f9,#f9f9f9) padding-box /* Don't extend this to border */,
+            linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%) border-box; /*Border-box is not need as it's the default value*/
+}
+
+.caseChartCoordinatesSecondY2Horizontal {
+    position: absolute;
+    left: -4px;
+    /*width: 1px;*/
+    height: 1px;
+    /*bottom: -6px;*/
+    border-radius:3px;
+    border-top: 1px dashed #fff;
+    z-index: 1;
+    animation: appear .5s;
+    background:
+            linear-gradient(#f9f9f9,#f9f9f9) padding-box /* Don't extend this to border */,
+            linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%) border-box; /*Border-box is not need as it's the default value*/
+}
+
+.caseChartCoordinatesSecondY3Horizontal {
+    position: absolute;
+    left: -4px;
+    /*width: 1px;*/
+    height: 1px;
+    /*bottom: -6px;*/
+    border-radius:3px;
+    border-top: 1px dashed #fff;
+    z-index: 1;
+    animation: appear .5s;
+    background:
+            linear-gradient(#f9f9f9,#f9f9f9) padding-box /* Don't extend this to border */,
+            linear-gradient(113.55deg, #BDE07D 5.58%, #F7E377 103.2%) border-box; /*Border-box is not need as it's the default value*/
+}
+
+.xName {
+    position: absolute;
+    bottom: -27px;
+    left: 785px;
+    font-size: 13px;
+/*//font-weight: bold;*/
+    font-style: italic;
+    animation: appear .5s;
+}
+
+.yName {
+    position: absolute;
+    left: -33px;
+    font-size: 13px;
+/*//font-weight: bold;*/
+    font-style: italic;
+    animation: appear .5s;
+}
+
+
+
+@keyframes drawCoordinates {
+    0% {
+        width: 0px;
+        height: 0px;
+        margin-top: 410px;
+    }
+    100% {
+        width: 817px;
+        height: 360px;
+        margin-top: 50px;
+    }
+}
+
+@keyframes drawLine {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotateDown {
+    0% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
